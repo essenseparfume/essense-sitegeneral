@@ -1,5 +1,5 @@
 const CART_KEY='essense_cart',FAV_KEY='essense_favorites';
-const TELEGRAM_WEBAPP='https://script.google.com/macros/s/AKfcyby69uPxgQrfYFrqMrJiEx0716jpM2lU6V75UIjn4rlH1DyfylMz8Maub_OQIE3gw2w/exec';
+const TELEGRAM_WEBAPP='https://script.google.com/macros/s/AKfycbzQPZCe_SEoM8B35SQL8Ynl53SdrOkJmyMFzo9HMTGUXrtkJjK8EnVFf6A3AD6lCas/exec';
 let products=[];
 let cart=JSON.parse(localStorage.getItem(CART_KEY)||'[]');
 let favorites=JSON.parse(localStorage.getItem(FAV_KEY)||'[]');
