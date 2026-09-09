@@ -46,7 +46,7 @@
   },
   {
     "id": 5,
-    "name": "Chanel Chance",
+    "name": "Chanel Platinum",
     "brand": "CHANEL",
     "image": "images/IMG_4349.jpeg",
     "price": 699,
@@ -61,7 +61,7 @@
   },
   {
     "id": 6,
-    "name": "Dior Sauvage",
+    "name": "Cristian Dior Sauvage",
     "brand": "DIOR",
     "image": "images/IMG_4386.jpeg",
     "price": 749,
@@ -91,8 +91,8 @@
   },
   {
     "id": 8,
-    "name": "Azzaro Wanted",
-    "brand": "AZZARO",
+    "name": "Valentino Born In Roma",
+    "brand": "Valentino",
     "image": "images/IMG_4220.jpeg",
     "price": 749,
     "oldPrice": 1099,
@@ -121,7 +121,7 @@
   },
   {
     "id": 10,
-    "name": "Чоловічий аромат E",
+    "name": "",
     "brand": "ESSENSE",
     "image": "images/IMG_4342.jpeg",
     "price": 749,
