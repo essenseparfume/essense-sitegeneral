@@ -72,6 +72,9 @@ function setupUI(){
   document.getElementById('mobileSort')?.addEventListener('click',()=>{const s=document.getElementById('sortFilter');s.value=s.value==='cheap'?'expensive':s.value==='expensive'?'default':'cheap';renderProducts();document.getElementById('filters').classList.add('open')});
   document.querySelector('.bottom-nav a:nth-child(2)')?.addEventListener('click',e=>{e.preventDefault();openSearch()});
 }
-
+if (location.pathname.endsWith('/') || location.pathname.endsWith('index.html')) {
+  history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+}
 async function init(){setupUI();updateCounts();try{const r=await fetch('products.json',{cache:'no-store'});if(!r.ok)throw new Error('products');products=await r.json()}catch(e){products=fallback}hydrateCheckout();renderProducts();renderFavorites();renderProduct();renderCart();setupSearch();document.body.classList.add('loaded')}
 init();
